@@ -3,7 +3,7 @@ highlight clear
 
 if exists("syntax on")
   hi clear
-  hi clear CursorLine
+  " hi clear CursorLine
   syntax reset
 endif
 
@@ -30,7 +30,7 @@ hi Error           ctermfg=9   ctermbg=NONE guifg=#FF0000 guibg=NONE
 hi SpellBad        ctermfg=160 ctermbg=NONE guifg=#E06C75 guibg=NONE
 hi TODO            ctermfg=135 ctermbg=NONE guifg=#AF5FFF guibg=NONE cterm=italic
 hi linenr          ctermfg=238 ctermbg=235  guifg=#444444 guibg=#262626 term=bold cterm=bold
-hi CursorLine                  ctermbg=236  guifg=#262626 guibg=NONE cterm=NONE
+hi CursorLine      ctermfg=231 ctermbg=236  guifg=#ffffff guibg=#3a3a3a cterm=NONE
 hi CursorLineNR    ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626 term=bold cterm=bold gui=bold
 hi Search          ctermfg=234 ctermbg=153  guifg=#1C1C1C guibg=#AFD7FF term=bold cterm=bold gui=bold
 hi IncSearch       ctermfg=234 ctermbg=158  guifg=#1C1C1C guibg=#87FFAF term=bold cterm=bold gui=bold

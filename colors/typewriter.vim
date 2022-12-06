@@ -30,7 +30,7 @@ hi Error           ctermfg=9   ctermbg=NONE guifg=#FF1493 guibg=NONE
 hi SpellBad        ctermfg=160 ctermbg=NONE guifg=#E06C75 guibg=NONE
 hi TODO            ctermfg=135 ctermbg=NONE guifg=#AF5FFF guibg=NONE cterm=italic gui=italic
 hi linenr          ctermfg=250 ctermbg=255  guifg=#BCBCBC term=bold cterm=NONE
-hi CursorLine                  ctermbg=254  guifg=#262626 guibg=NONE term=bold cterm=NONE
+hi CursorLine                  ctermbg=254  guifg=#262626 guibg=#E4E4E4 term=bold cterm=NONE
 hi CursorLineNR    ctermfg=232 ctermbg=255  guifg=#080808 term=bold cterm=bold gui=bold
 hi Search          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4 cterm=bold gui=bold
 hi IncSearch       ctermfg=235 ctermbg=158  guifg=#424242 guibg=#C3E9DB cterm=bold gui=bold
