@@ -57,27 +57,27 @@ hi Underlined      ctermfg=246 ctermbg=NONE guifg=#949494 cterm=underline term=u
 
 match ExtraWhitespace /\s\+$/
 
-hi link character	constant
-hi link number	        constant
-hi link boolean	        constant
-hi link Float		Number
-hi link Conditional	Repeat
-hi link Label		Statement
-hi link Keyword	        Statement
-hi link Exception	Statement
-hi link Include	        PreProc
-hi link Define	        PreProc
-hi link Macro		PreProc
-hi link PreCondit	PreProc
-hi link StorageClass	Type
-hi link Structure	Type
-hi link Typedef	        Type
-hi link htmlTag	        Special
-hi link Tag		Special
-hi link SpecialChar	Special
-hi link Delimiter	Special
-hi link SpecialComment  Special
-hi link Debug		Special
+hi link character      constant
+hi link number         constant
+hi link boolean        constant
+hi link Float          Number
+hi link Conditional    Repeat
+hi link Label          Statement
+hi link Keyword        Statement
+hi link Exception      Statement
+hi link Include        PreProc
+hi link Define         PreProc
+hi link Macro          PreProc
+hi link PreCondit      PreProc
+hi link StorageClass   Type
+hi link Structure      Type
+hi link Typedef        Type
+hi link htmlTag        Special
+hi link Tag            Special
+hi link SpecialChar    Special
+hi link Delimiter      Special
+hi link SpecialComment Special
+hi link Debug          Special
 
 
 " sytnax specific
@@ -105,12 +105,12 @@ hi link markdownUrl               Underlined
 hi link mkdUrl                    Underlined
 
 " Pug / HTML
-hi link pugId String
-hi link pugBegin String
-hi link pugTop String
-hi link pugIdChar String
-hi link pugClass String
-hi link pugClassChar String
+hi link pugId         String
+hi link pugBegin      String
+hi link pugTop        String
+hi link pugIdChar     String
+hi link pugClass      String
+hi link pugClassChar  String
 hi link pugAttributes String
 
 hi link htmlTag String
