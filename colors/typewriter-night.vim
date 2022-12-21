@@ -41,9 +41,9 @@ hi SignColumn      ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626 term=bol
 " Messages
 hi ModeMsg         ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626
 hi MoreMsg         ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626
-hi WarningMsg      ctermfg=202 ctermbg=235  guifg=#FF5F00 guibg=#262626
-hi ErrorMsg        ctermfg=199 ctermbg=234  guifg=#E41D91 guibg=#1C1C1C term=italic cterm=italic
-hi Visual          ctermfg=235 ctermbg=153  guifg=#262626 guibg=#AFD7FF
+hi WarningMsg      ctermfg=11  ctermbg=NONE guifg=#FFFF00 guibg=NONE
+hi ErrorMsg        ctermfg=9   ctermbg=NONE guifg=#FF0000 guibg=NONE    term=bold cterm=bold
+" hi Visual          ctermfg=235 ctermbg=153  guifg=#262626 guibg=#AFD7FF
 hi SpecialKey      ctermfg=254 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
 hi NonText         ctermfg=249 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
 hi ExtraWhitespace             ctermbg=237                guibg=#3A3A3A
@@ -77,6 +77,9 @@ hi link SpecialChar    Special
 hi link Delimiter      Special
 hi link SpecialComment Special
 hi link Debug          Special
+hi link CocInlayHint   Special
+hi link Exception      Error
+hi link Visual         CursorColumn
 
 " sytnax specific
 
