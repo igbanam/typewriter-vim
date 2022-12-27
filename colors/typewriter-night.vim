@@ -35,7 +35,7 @@ hi CursorLineNR    ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626 term=bol
 hi Search          ctermfg=234 ctermbg=153  guifg=#1C1C1C guibg=#AFD7FF term=bold cterm=bold gui=bold
 hi IncSearch       ctermfg=234 ctermbg=158  guifg=#1C1C1C guibg=#87FFAF term=bold cterm=bold gui=bold
 hi WildMenu        ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626
-hi Folded          ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626 term=bold cterm=bold gui=bold
+hi Folded          ctermfg=239 ctermbg=NONE guifg=#4E4E4E guibg=NONE
 hi SignColumn      ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626 term=bold cterm=bold gui=bold
 
 " Messages
